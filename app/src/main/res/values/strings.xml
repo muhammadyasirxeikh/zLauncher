@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ZLauncher4</string>
+    <string name="please_enter_password_lbl">Please enter your app unlock password</string>
+    <string name="ok">OK</string>
+    <string name="app_is_not_installed">APP IS NOT INSTALLED IN YOUR DEVICE</string>
+    <string name="this_app_uninstalled">App not installed.</string>
+    <string name="this_app_hidden">This app is not available.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/power_btn"/>
+        <!--<layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FF3030" />
+                    <corners android:radius="6dp"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/power_btn" android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp" />
+        </layer-list>
+    </item>-->
+    <item android:drawable="@drawable/power_btn_pressed" />
+</selector>

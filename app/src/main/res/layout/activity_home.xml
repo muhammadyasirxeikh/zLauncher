@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivBackgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/main_bg" />
+
+    <ImageView
+        android:id="@+id/ivHelpBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.4"
+        android:focusable="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="v4.1"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:id="@+id/news_btn"
+        android:layout_width= "60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="4dp"
+
+        android:focusable="true" />
+
+
+    <ImageView
+        android:id="@+id/ivButtonTop"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.4"
+
+        android:focusable="true"
+        android:orientation="vertical" />
+    <ImageView
+        android:id="@+id/ivButtonTop_noitnternet"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.4"
+
+        android:focusable="true"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/tvDownloadProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_left_icon_size"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+
+        android:focusable="false"
+        android:gravity="center"
+        android:text="10% Downloading..."
+        android:textColor="#FF4246"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="7"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+                android:padding="2dp"
+                android:id="@+id/ivWifiState"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+                android:padding="2dp"
+                android:id="@+id/ivLanState"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+
+                android:padding="2dp"
+                android:id="@+id/ivMiniButton3"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_weight="1"
+
+                android:focusable="true"
+
+
+                android:padding="2dp"
+                android:id="@+id/ivBluetoothState"
+
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+                android:padding="2dp"
+                android:id="@+id/ivAppLockBtn"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+                android:padding="2dp"
+                android:id="@+id/ivMiniButton6"
+                />
+            <ImageView
+
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+                android:padding="2dp"
+                android:id="@+id/ivMiniButton7"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="7"
+            >
+            <ImageView
+                android:layout_width="0dp"
+
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+                android:padding="2dp"
+                android:focusable="true"
+                android:id="@+id/ivUpdateBtn"
+
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+                android:padding="2dp"
+                android:id="@+id/ivMiniButton9"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+
+                android:layout_weight="1"
+
+                android:focusable="true"
+
+                android:padding="2dp"
+                android:id="@+id/ivMiniButton10"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+
+                android:padding="2dp"
+                android:id="@+id/ivMiniButton11"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:focusable="true"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+
+                android:padding="2dp"
+                android:id="@+id/ivMiniButton12"
+                />
+            <RelativeLayout
+                android:id="@+id/rlTextClock"
+                android:focusable="false"
+
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="50dp"
+
+                >
+                <TextClock
+                    android:focusable="false"
+                    android:id="@+id/textClock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F1EFEF"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="5dp"
+                    android:textSize="21.6sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llHeaderIconContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:weightSum="7"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/ivTopBtnNew"
+            android:layout_width="@dimen/top_left_icon_size"
+            android:layout_height="@dimen/top_left_icon_size"
+           
+            android:padding="3dp"
+            android:focusable="true"
+            />
+        <ImageView
+            android:id="@+id/ivMiniButton8"
+            android:layout_width="@dimen/top_left_icon_size"
+            android:layout_height="@dimen/top_left_icon_size"
+            android:padding="3dp"
+           
+            android:focusable="true"
+             />
+
+        <ImageView
+            android:id="@+id/ivMiniButton5"
+            android:layout_width="@dimen/top_left_icon_size"
+            android:layout_height="@dimen/top_left_icon_size"
+            android:padding="3dp"
+           
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/ivMiniButton4"
+            android:layout_width="@dimen/top_left_icon_size"
+            android:layout_height="@dimen/top_left_icon_size"
+            android:padding="3dp"
+           
+            android:focusable="true"
+             />
+
+
+        <ImageView
+            android:id="@+id/ivMiniButton1"
+            android:layout_width="@dimen/top_left_icon_size"
+            android:layout_height="@dimen/top_left_icon_size"
+            android:padding="3dp"
+           
+            android:focusable="true"
+            android:src="@drawable/ether_off" />
+
+        <ImageView
+            android:id="@+id/ivMiniButton2"
+            android:layout_width="@dimen/top_left_icon_size"
+            android:layout_height="@dimen/top_left_icon_size"
+            android:padding="3dp"
+           
+            android:focusable="true"
+            android:src="@drawable/wifi_off" />
+
+        <ImageView
+            android:id="@+id/ivVpnBtn"
+            android:layout_width="40dp"
+            android:layout_height="@dimen/top_left_icon_size"
+            android:padding="3dp"
+           
+            android:focusable="true"
+             />
+        <ImageView
+            android:id="@+id/ivPoweBtn"
+            android:layout_width="@dimen/top_left_icon_size"
+            android:layout_height="@dimen/top_left_icon_size"
+           
+            android:padding="3dp"
+
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!--TODO uncomment later-->
+    <RelativeLayout
+
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llHeaderIconContainer"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp">
+        <TextClock
+            android:focusable="false"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F1EFEF"
+            android:textSize="26sp" />
+    </RelativeLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/sfDefIconConainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivButtonTop"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/llDefIconConainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivButton1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true"
+                        android:scaleType="center" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn1_update_req"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn1_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginStart="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton2"
+                        android:layout_width="@dimen/home_card_size"
+                        android:layout_height="@dimen/home_card_size"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn2_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn2_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/big_card_width"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginLeft="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn4_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn4_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginLeft="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn5_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn5_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginLeft="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton3"
+                        android:layout_width="@dimen/home_card_size"
+                        android:layout_height="@dimen/home_card_size"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn3_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn3_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size">
+
+                    <ImageView
+                        android:id="@+id/ivButton6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn6_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn6_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginLeft="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton7"
+                        android:layout_width="@dimen/home_card_size"
+                        android:layout_height="@dimen/home_card_size"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn7_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn7_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginLeft="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton8"
+                        android:layout_width="@dimen/home_card_size"
+                        android:layout_height="@dimen/home_card_size"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn8_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn8_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginLeft="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton9"
+                        android:layout_width="@dimen/home_card_size"
+                        android:layout_height="@dimen/home_card_size"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn9_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn9_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginLeft="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton10"
+                        android:layout_width="@dimen/home_card_size"
+                        android:layout_height="@dimen/home_card_size"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn10_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn10_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="@dimen/home_card_size"
+                    android:layout_height="@dimen/home_card_size"
+                    android:layout_marginLeft="@dimen/default_margin">
+
+                    <ImageView
+                        android:id="@+id/ivButton11"
+                        android:layout_width="@dimen/home_card_size"
+                        android:layout_height="@dimen/home_card_size"
+                        android:background="@drawable/iv_default"
+                        android:focusable="true" />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:id="@+id/btn11_update_req"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="bottom"
+                        android:text="appname"
+                        android:id="@+id/btn11_appname"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="7dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <LinearLayout
+        android:id="@+id/llDockContainer"
+        android:layout_width="756dp"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_below="@id/sfDefIconConainer"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivBottomAddRemoveBtn"
+            android:layout_width="@dimen/home_card_size"
+            android:layout_height="@dimen/home_card_size"
+            android:alpha="0.4"
+            android:background="@drawable/iv_default"
+            android:focusable="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_dock_item_recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:orientation="horizontal"
+            android:scrollbars="none"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlWebViewRssContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/llDockContainer"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/webviewRss"
+            android:layout_width="match_parent"
+            android:paddingBottom="10dp"
+            android:layout_height="wrap_content"
+            android:focusable="true" />
+
+        <RelativeLayout
+            android:id="@+id/rlWebViewRssClickBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn_settings"
+        android:layout_width= "28dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/btn_left3"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_toStartOf="@id/sfDefIconConainer"
+        android:visibility="gone"
+        android:background="@color/red"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/btn_left_top"
+        android:layout_width="@dimen/big_card_width"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_alignParentTop="true"
+
+
+        android:scaleType="centerCrop"
+
+        android:layout_toStartOf="@id/btn_left_top_right"
+        android:focusable="true" />
+    <ImageView
+        android:id="@+id/btn_left_top_right"
+        android:layout_width= "@dimen/home_card_size"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="@dimen/topPaddingShimmer_minus"
+        android:layout_toStartOf="@id/ivButtonTop"
+        android:visibility="gone"
+        android:background="@color/red"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/btn_left1"
+        android:layout_width= "@dimen/home_card_size"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_toStartOf="@id/sfDefIconConainer"
+        android:background="@color/red"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/btn_left2"
+        android:layout_width="@dimen/home_card_size"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_below="@id/btn_left1"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_toStartOf="@id/sfDefIconConainer"
+        android:background="@color/red"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/btn_left3"
+        android:layout_width="@dimen/home_card_size"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_below="@id/btn_left2"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_toStartOf="@id/sfDefIconConainer"
+        android:background="@color/red"
+        android:focusable="true" />
+
+
+    <ImageView
+        android:id="@+id/btn_right1"
+        android:layout_width="@dimen/home_card_size"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="120dp"
+        android:layout_toEndOf="@id/sfDefIconConainer"
+        android:background="@color/red"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/btn_right2"
+        android:layout_width="@dimen/home_card_size"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_below="@id/btn_right1"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_toEndOf="@id/sfDefIconConainer"
+        android:background="@color/red"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/btn_right3"
+        android:layout_width="@dimen/home_card_size"
+        android:layout_height="@dimen/home_card_size"
+        android:layout_below="@id/btn_right2"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_toEndOf="@id/sfDefIconConainer"
+        android:background="@color/red"
+        android:focusable="true" />
+
+</RelativeLayout>

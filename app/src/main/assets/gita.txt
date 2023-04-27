@@ -1,0 +1,251 @@
+{
+  "sheet_update": "1",
+  "update_status": "34",
+  "long_press_delay": "1300",
+  "display_size": "310",
+  "display_size_version": "49",
+  "startupalaunchapp": "<---APP ID OF START UP--->",
+  "buttons_images": {
+    "icon_vpn_button": "<---LINK--->",
+    "icon_pressed_vpn_button": "<---LINK--->",
+    "icon_button0": "https://www.dropbox.com/s/vph5telbggjm1r5/b_Logo_header2.png?dl=1",
+    "icon_pressed_button0": "https://www.dropbox.com/s/vph5telbggjm1r5/b_Logo_header2.png?dl=1",
+    "icon_button1": "https://www.dropbox.com/s/pljurkg7mwoze50/b_fastflix_w60.png?dl=1",
+    "icon_pressed_button1": "https://www.dropbox.com/s/cyjg5th58f6mdtb/b_fastflix_r60.png?dl=1",
+    "icon_button2": "https://www.dropbox.com/s/lzmcs20he6ahvj0/b_cinemavod_w60.png?dl=1",
+    "icon_pressed_button2": "https://www.dropbox.com/s/pxh9carqlvp165q/b_cinemavod_r60.png?dl=1",
+    "icon_button4": "https://www.dropbox.com/s/o0k8o1drbgzp6zt/b60w_fuselive.png?dl=1",
+    "icon_pressed_button4": "https://www.dropbox.com/s/or63020qi0k1iry/b70r_fuselive.png?dl=1",
+    "icon_button5": "https://www.dropbox.com/s/scw9q021wd6t84o/b4w_blaze.png?dl=1",
+    "icon_pressed_button5": "https://www.dropbox.com/s/b60yuss1fusd7dx/b_blazelive_r2.png?dl=1",
+    "icon_button3": "https://www.dropbox.com/s/gdi3nzpy7tylssz/b_prime_w60.png?dl=1",
+    "icon_pressed_button3": "https://www.dropbox.com/s/6tz11nukht7hf15/b_prime_r60.png?dl=1",
+    "icon_button6": "https://www.dropbox.com/s/l7hu5qjfyzji0gt/b60w_apps.png?dl=1",
+    "icon_pressed_button6": "https://www.dropbox.com/s/q2yua5x9754qlxn/b70r_apps.png?dl=1",
+    "icon_button7": "https://www.dropbox.com/s/syk10iktw2m13av/b_youtube_w_2.png?dl=1",
+    "icon_pressed_button7": "https://www.dropbox.com/s/pfhjgs9346dm480/b_youtube_r.png?dl=1",
+    "icon_button8": "https://www.dropbox.com/s/4xsthd8mczbjnse/b60w_speedtest.png?dl=1",
+    "icon_pressed_button8": "https://www.dropbox.com/s/qo08d6zq95qx5dm/b70r_speedtest.png?dl=1",
+    "icon_button9": "https://www.dropbox.com/s/ehbaqfx3932p46h/b60w_filelinked.png?dl=1",
+    "icon_pressed_button9": "https://www.dropbox.com/s/rdzptwvi9yo96jy/b70r_filelinked.png?dl=1",
+    "icon_button10": "https://www.dropbox.com/s/f18p2cjn0hgitow/b60w_zappupdater.png?dl=1",
+    "icon_pressed_button10": "https://www.dropbox.com/s/arjs9464gczxx1a/b70r_zappupdater.png?dl=1",
+    "icon_button11": "https://www.dropbox.com/s/8tmgj087oxpm48n/b60w_settings.png?dl=1",
+    "icon_pressed_button11": "https://www.dropbox.com/s/1r3zznqojmqpqph/b70r_settings.png?dl=1",
+    "icon_pwr_button": "https://www.dropbox.com/s/avztv7ngjfelafz/b_pwr_button_white.png?dl=1",
+    "icon_pressed_pwr_button": "https://www.dropbox.com/s/cq55nrgpt7i8grz/b_pwr_button_green.png?dl=1",
+    "icon_dock_button": "https://www.dropbox.com/s/jb23dxzcjykz008/b60w_dock.png?dl=1",
+    "icon_pressed_dock_button": "https://www.dropbox.com/s/nuk8zb52nh8jwtk/b70r_dock.png?dl=1",
+    "icon_logo_button": "https://www.dropbox.com/s/j05g3x4mytcqg08/b_logo_header.png?dl=1",
+    "icon_pressed_logo_button": "https://www.dropbox.com/s/j05g3x4mytcqg08/b_logo_header.png?dl=1",
+    "icon_help_button": "https://www.dropbox.com/s/whh5vtnvck5ierg/b60w_help.png?dl=1",
+    "icon_pressed_help_button": "https://www.dropbox.com/s/dw3hupg77f2xwwp/b70r_help.png?dl=1",
+    "icon_blank_button": "https://www.dropbox.com/s/n6g95g7qa8v12eq/b_blankdl_w.png?dl=1",
+    "icon_pressed_blank_button": "https://www.dropbox.com/s/n6xy9f8ogf94zda/b_blankdl_r.png?dl=1",
+    "icon_doubleblank_button": "https://www.dropbox.com/s/zrw7kbpim1fiie0/b_dounleblank_w.png?dl=1",
+    "icon_pressed_doubleblank_button": "https://www.dropbox.com/s/yekk11mbul5w5de/b_doubleblank_r.png?dl=1"
+  },
+  "button_appids": {
+    "appid_vpn_button": "<---VPN APP ID--->",
+    "appid_button0": "com.zvision.zlaunchertwo",
+    "appid_button1": "app.fastflix.fastflix",
+    "appid_button2": "com.yoku.marumovie",
+    "appid_button4": "ar.tvplayer.live",
+    "appid_button5": "app.blazelive.blazelive",
+    "appid_button3": "com.amazon.avod.thirdpartyclient",
+    "appid_button6": "ALL_APPS_ACTIVITY",
+    "appid_button7": "com.liskovsoft.videomanager",
+    "appid_button8": "com.analiti.fastest.android",
+    "appid_button9": "com.aot.filelinked",
+    "appid_button10": "app.zupdater.zupdater",
+    "appid_button11": "com.android.tv.settings",
+    "appid_pwr_button": "be.ppareit.shutdown",
+    "appid_logo_button": "com.zvision.zlaunchertwo"
+  },
+  "button_tutorial": [
+    {
+      "btn_id": "H",
+      "title": "(SECTION 1) -- HOW TO LOGIN / GETTING STARTED",
+      "description": "",
+      "help_url": "https://www.dropbox.com/s/6hu1v7oaupy2alk/Main%20Menu%20-%20Overview.png?dl=1",
+      "tutorial_type": "PNG"
+    },
+    {
+      "btn_id": "11",
+      "title": "Main Menu - Overview of Functions",
+      "description": "Longpress on App buttons to pull up additional options.",
+      "help_url": "https://www.dropbox.com/s/6hu1v7oaupy2alk/MainMenu_Overview.png?dl=1",
+      "tutorial_type": "PNG"
+    },
+    {
+      "btn_id": "5",
+      "title": "Blaze/Rewind App - How to Login for the first time",
+      "description": "Step by step demo and instructions of how to Login and navigate in the app ",
+      "help_url": "https://www.dropbox.com/s/zq07rl97pr169dd/Login_BlazeRewind_guide_480p.mov?dl=1",
+      "tutorial_type": "mov"
+    },
+    {
+      "btn_id": "4",
+      "title": "Fuse Live App - How to Login for the first time",
+      "description": "Step by step demo and instructions of how to Login, change suggested settings and navigate in the app ",
+      "help_url": "https://www.dropbox.com/s/93bwvrrq84su6a6/Login_FuseLive_guide_480p.mov?dl=1",
+      "tutorial_type": "mov"
+    },
+    {
+      "btn_id": "2",
+      "title": "Real Debrid - How to Guide",
+      "description": "How to get an RD account and login/authorize RD in an app",
+      "help_url": "https://www.dropbox.com/s/ji5ztv36sr1h7df/RealDebrid_guide.png?dl=1",
+      "tutorial_type": "png"
+    },
+    {
+      "btn_id": "2",
+      "title": "Real Debrid - Frequently Asked Questions / Usage Tips",
+      "description": "Usage Tips",
+      "help_url": "https://www.dropbox.com/s/gc0uzn9gr9oxgzg/RealDebrid_FAQ.png?dl=1",
+      "tutorial_type": "png"
+    },
+    {
+      "btn_id": "H",
+      "title": "(SECTION 2) -- OTHER GUIDES",
+      "description": "",
+      "help_url": "https://www.dropbox.com/s/6hu1v7oaupy2alk/Main%20Menu%20-%20Overview.png?dl=1",
+      "tutorial_type": "PNG"
+    },
+    {
+      "btn_id": "10",
+      "title": "Using ZUpdater - Click to play video",
+      "description": "Step by step demo and instructions of how to use the Z App Updater on the main menu. This is only used to update to newer versions of apps not to troubleshoot streaming issues or update channels or VOD content. ",
+      "help_url": "https://www.dropbox.com/s/6hw09jdy8dnj212/ZUpdater_full_31_480p.mov?dl=1",
+      "tutorial_type": "mov"
+    },
+    {
+      "btn_id": "4",
+      "title": "Fuse vs Blaze Features",
+      "description": "Comparison - Same channels, different menus and features.",
+      "help_url": "https://www.dropbox.com/s/lgrwavty05bb0nv/Fuse_vs_Blaze.png?dl=1",
+      "tutorial_type": "png"
+    },
+    {
+      "btn_id": "H",
+      "title": "(SECTION 3) -- QUICK FIX GUIDES",
+      "description": "",
+      "help_url": "https://www.dropbox.com/s/6hu1v7oaupy2alk/Main%20Menu%20-%20Overview.png?dl=1",
+      "tutorial_type": "PNG"
+    },
+    {
+      "btn_id": "2",
+      "title": "Quick Fix Guide - Streaming Apps",
+      "description": "Steps to troubleshoot and fix issues with Streaming apps (Fuse, Blaze, Rewind, etc.)",
+      "help_url": "https://www.dropbox.com/s/c3k72nt0sqi4nuy/QFG_MainApps.png?dl=1",
+      "tutorial_type": "PNG"
+    }
+  ],
+  "ads_button": {
+    "btn_left_top": {
+      "btn_id": "0",
+      "title": "TITLE",
+      "description": "DESCRIPTION",
+      "help_url": "https://www.dropbox.com/s/c3k72nt0sqi4nuy/QFG_MainApps.png?dl=1",
+      "tutorial_type": "png"
+    },
+    "btn_left1": {
+      "btn_id": "1",
+      "title": "Main Menu",
+      "description": "Functions Guide",
+      "help_url": "https://www.dropbox.com/s/6hu1v7oaupy2alk/MainMenu_Overview.png?dl=1",
+      "tutorial_type": "png"
+    },
+    "btn_left2": {
+      "btn_id": "2",
+      "title": "zv",
+      "description": "vision site",
+      "help_url": "http://zvisiontv.com",
+      "tutorial_type": "url"
+    },
+    "btn_left3": {
+      "btn_id": "3",
+      "title": "TITLE",
+      "description": "DESCRIPTION",
+      "help_url": "LINK",
+      "tutorial_type": "png"
+    },
+    "btn_right1": {
+      "btn_id": "4",
+      "title": "TITLE",
+      "description": "DESCRIPTION",
+      "help_url": "LINK",
+      "tutorial_type": "png"
+    },
+    "btn_right2": {
+      "btn_id": "5",
+      "title": "TITLE",
+      "description": "DESCRIPTION",
+      "help_url": "LINK",
+      "tutorial_type": "png"
+    },
+    "btn_right3": {
+      "btn_id": "6",
+      "title": "TITLE",
+      "description": "DESCRIPTION",
+      "help_url": "LINK",
+      "tutorial_type": "png"
+    }
+  },
+  "rss_html": {
+    "rss_status": "1",
+    "short_rss_link": "https://www.dropbox.com/s/9mq13brrn1jfa8l/ZL_rsstext_z1.txt?dl=1",
+    "full_rss_link": "https://www.dropbox.com/s/nl4w2qfnj2cdyqf/ZL_rsstext_popup_z1.txt?dl=1"
+  },
+  "app_auto_update": {
+    "update_no": "1",
+    "update_del": [
+
+    ],
+    "update_app_link": [
+      "https://www.dropbox.com/s/f8r8kdj2xqh3lhn/fastflix.apk?dl=1"
+    ]
+  },
+  "hide_apps": [
+    "1,1",
+    "2,1",
+    "3,1",
+    "4,1",
+    "5,1",
+    "6,1",
+    "7,1",
+    "8,1",
+    "9,1",
+    "10,1",
+    "11,1",
+    "12,1"
+  ],
+  "start_up_popup": {
+    "msg_type": "html",
+    "msg_frequency": 2,
+    "msg_update": 1,
+    "msg_url": "https://www.dropbox.com/s/nl4w2qfnj2cdyqf/ZL_rsstext_popup_z1.txt?dl=1"
+  },
+  "delete_app_startup": [
+
+  ],
+  "background_image": "https://www.dropbox.com/s/8araimsmldbxkou/bg_spring_waterfall.png?dl=1",
+  "vpn_button": "<---LINK--->",
+  "help_background_image": "https://www.dropbox.com/s/srnqyf5382zfv8x/bg_helpcentermenu.png?dl=1",
+  "rssfeed": "https://www.dropbox.com/s/eaw1n6dmv2or258/zlauncher_Z3RSS.xml?dl=1",
+  "pwr_button": "https://www.dropbox.com/s/ql3j43emad2098g/zLauncherv3_13_4.apk?dl=1",
+  "zlauncher": "",
+  "UpdateIvButton0": "https://www.dropbox.com/s/k0qk2px7cth5yif/zLauncherv3_14.apk?dl=1",
+  "UpdateIvButton1": "https://www.dropbox.com/s/f8r8kdj2xqh3lhn/fastflix.apk?dl=1",
+  "UpdateIvButton2": "https://www.dropbox.com/s/c67pg1flu10byru/Cinema2361.apk?dl=1",
+  "UpdateIvButton4": "https://www.dropbox.com/s/3e86pqx33yhdfwf/FuseLive246f.apk?dl=1",
+  "UpdateIvButton3": "https://www.dropbox.com/s/rgkiz2ptgyfcyn6/amazon-prime-video-3-0-288-30245.apk?dl=1",
+  "UpdateIvButton5": "https://www.dropbox.com/s/e79sgn374bqzvug/BlazeV1_0_LO.apk?dl=1",
+  "UpdateIvButton6": "",
+  "UpdateIvButton7": "https://www.dropbox.com/s/yrctsvof029yngl/SmartYouTubeTV_6_17_730.apk?dl=1",
+  "UpdateIvButton8": "https://www.dropbox.com/s/r2m016at539fbti/droidsettings9e.apk?dl=1",
+  "UpdateIvButton9": "https://www.dropbox.com/s/t2u2ffo1wyteblc/filelinked_v202.apk?dl=1",
+  "UpdateIvButton10": "https://www.dropbox.com/s/u330sg8jxg81779/ZUpdater1_3.apk?dl=1",
+  "UpdateIvButton11": "https://www.dropbox.com/s/r2m016at539fbti/droidsettings9e.apk?dl=1",
+  "UpdateIvButton12": "https://www.dropbox.com/s/qnyem6c8cmncn9r/DroidSettings7.apk?dl=1"
+}

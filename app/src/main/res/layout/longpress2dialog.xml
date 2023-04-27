@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="Button Options"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/longPressDialogBtnTextSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/updateNewVersionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="Update to new Version"
+        android:textColor="@color/black"
+
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/cleanAppDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="Clear Launcher App Data"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+    <TextView
+        android:id="@+id/choose_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="Choose new launcher path"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+
+
+
+</LinearLayout>

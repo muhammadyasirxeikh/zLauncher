@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="Button Options"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/longPressDialogBtnTextSize"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHelpInfoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_divider"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+            android:text="HELP INFO"
+            android:textColor="@color/black"
+            android:textSize="@dimen/longPressDialogBtnTextSize"
+            />
+        <TextView
+            android:id="@+id/tvAppInfoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_divider"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+            android:text="APP INSTALL INFO"
+            android:textColor="@color/black"
+            android:textSize="@dimen/longPressDialogBtnTextSize"
+            />
+
+
+    <TextView
+        android:id="@+id/tvUpdateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:gravity="center"
+        android:background="@drawable/list_divider"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="DOWNLOAD APP"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvReassignBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="REASSIGN TO ANOTHER APP"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvDeleteAppBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="DELETE APP"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvDeleteAppDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="DELETE APP DATA IN STORAGE"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvDeleteAppCacheBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="DELETE APP CACHE"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvUnlockAppBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="UNLOCK APP"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvLockAppBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="LOCK APP"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvHideUnHideAppBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="HIDE APP"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize"
+        android:visibility="gone"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

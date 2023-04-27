@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">12dp</dimen>
+    <dimen name="home_card_size">116dp</dimen>
+    <dimen name="big_card_width">244dp</dimen>
+    <dimen name="top_left_icon_size">28dp</dimen>
+    <dimen name="longPressDialogTextBtnPaddingTopBottom">10dp</dimen>
+    <dimen name="longPressDialogBtnTextSize">16sp</dimen>
+    <dimen name="topPaddingShimmer">110dp</dimen>
+    <dimen name="topPaddingShimmer_minus">-100dp</dimen>
+</resources>

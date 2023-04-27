@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="Parental Control"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/longPressDialogBtnTextSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvActivateDeActivateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="ACTIVATE/DEACTIVATE"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvLockUnlockBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="LOCK/UNLOCK APPS"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvHideAllBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="HIDE ALL"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+    <TextView
+        android:id="@+id/tvUnHideAllBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_divider"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="@dimen/longPressDialogTextBtnPaddingTopBottom"
+        android:text="UNHIDE ALL"
+        android:textColor="@color/black"
+        android:textSize="@dimen/longPressDialogBtnTextSize" />
+
+
+</LinearLayout>
